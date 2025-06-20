@@ -1,0 +1,4 @@
+name: RobinHoodProject
+version: 1.0.0
+main: com.robinhood.RobinHoodProject
+api-version: 1.16

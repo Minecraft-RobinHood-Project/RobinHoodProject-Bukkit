@@ -1,0 +1,31 @@
+# 是否启用 bStats 统计信息收集
+# Enable bStats statistics collection
+bStats: true
+
+# 语言设置，请查看 readme.md 以获取可用语言列表
+# Language setting, please see readme.md for available languages
+language: zh_hans
+
+# 自定义Github加速链接
+# 获取的地址为https://raw.githubusercontent.com/xxx，配置加速地址后为https://github.xxx.top/https://raw.githubusercontent.com/xxx
+# 即在原获取链接前加上配置的加速地址前缀
+# Custom Github acceleration link
+# The address is https://raw.githubusercontent.com/xxx, after configuring the acceleration address, the address becomes https://github.xxx.top/https://raw.githubusercontent.com/xxx
+# That is, the original acquisition link is prefixed with the configured acceleration address
+github-acceleration-link: 
+  # 是否启用前缀加速地址
+  # Enable prefix acceleration address
+  enable: false
+  # 配置前缀加速地址
+  # Configure prefix acceleration address
+  prefix_address: https://github.whrstudio.top/
+
+# 自动更新黑名单列表
+# Auto update blacklist
+auto-update-blacklist:
+  # 是否启用黑名单列表自动更新
+  # Enable blacklist auto update
+  enable: true
+  # 黑名单列表自动更新间隔(分钟)
+  # Blacklist auto update interval(minutes)
+  interval-minutes: 60
